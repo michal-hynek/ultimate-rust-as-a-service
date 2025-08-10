@@ -7,5 +7,6 @@ edition = "2024"
 
 [workspace]
 members = [
-    "src/http_server"
+    "src/http_server",
+    "src/http_server_state",
 ]
