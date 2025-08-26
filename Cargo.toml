@@ -9,4 +9,5 @@ edition = "2024"
 members = [
     "src/http_server",
     "src/http_server_state",
+    "src/http_server_mutable_state",
 ]

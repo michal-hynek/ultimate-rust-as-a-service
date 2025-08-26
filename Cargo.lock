@@ -207,6 +207,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "http_server_mutable_state"
+version = "0.1.0"
+dependencies = [
+ "axum",
+ "tokio",
+]
+
+[[package]]
 name = "http_server_state"
 version = "0.1.0"
 dependencies = [
