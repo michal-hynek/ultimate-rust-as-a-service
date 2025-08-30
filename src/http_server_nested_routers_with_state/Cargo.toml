@@ -1,0 +1,8 @@
+[package]
+name = "http_server_nested_routers_with_state"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = "0.8.4"
+tokio = { version = "1.47.1", features = ["full"] }
