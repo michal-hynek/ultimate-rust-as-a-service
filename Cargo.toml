@@ -13,4 +13,5 @@ members = [
     "src/http_server_multiple_states",
     "src/http_server_nested_routers",
     "src/http_server_nested_routers_with_state",
+    "src/http_server_external_requests",
 ]
