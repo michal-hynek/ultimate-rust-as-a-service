@@ -1,0 +1,17 @@
+use axum::{http::StatusCode, routing::get, Router};
+
+async fn handler() -> StatusCode {
+    StatusCode::INTERNAL_SERVER_ERROR
+}
+
+#[tokio::main]
+async fn main() {
+    let app = Router::new().route("/", get(handler));
+
+    let listener = tokio::net::TcpListener::bind("127.0.0.1:3001")
+        .await
+        .unwrap();
+
+    println!("listening on {}", listener.local_addr().unwrap());
+    axum::serve(listener, app).await.unwrap();
+}
