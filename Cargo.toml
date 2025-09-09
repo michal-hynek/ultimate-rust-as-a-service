@@ -16,4 +16,5 @@ members = [
     "src/http_server_external_requests",
     "src/http_server_static_status_code",
     "src/http_server_status_code",
+    "src/static_content",
 ]
