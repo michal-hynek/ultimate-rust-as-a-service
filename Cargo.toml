@@ -18,4 +18,5 @@ members = [
     "src/http_server_status_code",
     "src/static_content",
     "http_server_request_authentication",
+    "http_server_request_authentication2",
 ]
